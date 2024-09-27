@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 08116276
-/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "expr" "1500"
 /// @DnDArgument : "var" "thisHP"
-thisHP = 10;
+thisHP = 1500;
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1

@@ -44,6 +44,18 @@ sprite_index = s_energy_ball_maxx_size;
 image_index = 0;
 }
 
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 5A602638
+/// @DnDApplyTo : {o_ene_rocket_target}
+with(o_ene_rocket_target) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 5B44DA43
+/// @DnDApplyTo : {o_ene_bullet_target_non_path_1}
+with(o_ene_bullet_target_non_path_1) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 7331F3CC

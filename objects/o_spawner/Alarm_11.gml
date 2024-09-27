@@ -1,15 +1,18 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5C309BB3
-/// @DnDArgument : "xpos" "random_range(100,800 )"
-/// @DnDArgument : "ypos" "100"
-/// @DnDArgument : "objectid" "o_refill"
-/// @DnDSaveInfo : "objectid" "o_refill"
-instance_create_layer(random_range(100,800 ), 100, "Instances", o_refill);
+/// @DnDHash : 7FE40A61
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "expr_1" "30"
+/// @DnDArgument : "var" "global.PLAYER_SPEED"
+/// @DnDArgument : "var_1" "global.BULLET_CD"
+global.PLAYER_SPEED = 8;
+global.BULLET_CD = 30;
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
-/// @DnDHash : 735384A0
-/// @DnDArgument : "steps" "400"
-/// @DnDArgument : "alarm" "11"
-alarm_set(11, 400);
+/// @DnDHash : 15B068DF
+/// @DnDApplyTo : {o_player_root}
+with(o_player_root) {
+event_user(0);
+}

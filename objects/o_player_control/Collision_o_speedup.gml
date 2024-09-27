@@ -19,12 +19,17 @@ instance_create_layer(o_player_root.x, o_player_root.y, "Instances", o_buff1);
 /// @DnDHash : 2F088741
 /// @DnDArgument : "var" "global.BULLET_CD"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "10"
-if(global.BULLET_CD >= 10){	/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDArgument : "value" "12"
+if(global.BULLET_CD >= 12){	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E7876F5
+	/// @DnDInput : 2
 	/// @DnDParent : 2F088741
-	/// @DnDArgument : "value" "-5"
+	/// @DnDArgument : "value" "-4"
 	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "value_1" "0.6"
+	/// @DnDArgument : "value_relative_1" "1"
 	/// @DnDArgument : "var" "global.BULLET_CD"
-	global.BULLET_CD += -5;}
+	/// @DnDArgument : "var_1" "global.PLAYER_SPEED"
+	global.BULLET_CD += -4;
+	global.PLAYER_SPEED += 0.6;}

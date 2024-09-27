@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 70404E89
+/// @DnDArgument : "soundid" "cannon_shot"
+/// @DnDArgument : "pitch" "0.5"
+/// @DnDSaveInfo : "soundid" "cannon_shot"
+audio_play_sound(cannon_shot, 0, 0, 1.0, undefined, 0.5);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6D76751A

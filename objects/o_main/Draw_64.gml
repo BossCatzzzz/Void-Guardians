@@ -73,3 +73,12 @@ draw_text(1, 120, string("B-CD: ") + string(global.BULLET_CD));
 /// @DnDArgument : "caption" ""B-DAMAGE: ""
 /// @DnDArgument : "var" "global.BULLET_DAMAGE"
 draw_text(1, 150, string("B-DAMAGE: ") + string(global.BULLET_DAMAGE));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 37A717D1
+/// @DnDArgument : "x" "1"
+/// @DnDArgument : "y" "180"
+/// @DnDArgument : "caption" ""Speed: ""
+/// @DnDArgument : "var" "global.PLAYER_SPEED"
+draw_text(1, 180, string("Speed: ") + string(global.PLAYER_SPEED));

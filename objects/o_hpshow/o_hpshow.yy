@@ -14,7 +14,10 @@
     "name":"others",
     "path":"folders/Objects/others.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_abstract_effect_buff",
+    "path":"objects/o_abstract_effect_buff/o_abstract_effect_buff.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 014E30C9
+/// @DnDArgument : "soundid" "boss_shot"
+/// @DnDSaveInfo : "soundid" "boss_shot"
+audio_play_sound(boss_shot, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 73DC1CE9

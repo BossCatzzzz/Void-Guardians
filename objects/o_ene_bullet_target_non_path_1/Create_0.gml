@@ -1,12 +1,36 @@
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
-/// @DnDHash : 753D92D7
-/// @DnDArgument : "x" "o_player_root.x"
-/// @DnDArgument : "y" "o_player_root.y"
-direction = point_direction(x, y, o_player_root.x, o_player_root.y);
+/// @DnDHash : 75A0A083
+/// @DnDArgument : "obj" "o_player_root"
+/// @DnDSaveInfo : "obj" "o_player_root"
+var l75A0A083_0 = false;l75A0A083_0 = instance_exists(o_player_root);if(l75A0A083_0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 753D92D7
+	/// @DnDParent : 75A0A083
+	/// @DnDArgument : "x" "o_player_root.x"
+	/// @DnDArgument : "y" "o_player_root.y"
+	direction = point_direction(x, y, o_player_root.x, o_player_root.y);
 
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 4EF3122C
+	/// @DnDParent : 75A0A083
+	/// @DnDArgument : "speed" "10"
+	speed = 10;}
+
+/// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
-/// @DnDHash : 4EF3122C
-/// @DnDArgument : "speed" "10"
-speed = 10;
+/// @DnDHash : 41C90E69
+else{	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3D531DCA
+	/// @DnDParent : 41C90E69
+	/// @DnDArgument : "direction" "270"
+	direction = 270;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 28BFA218
+	/// @DnDParent : 41C90E69
+	/// @DnDArgument : "speed" "10"
+	speed = 10;}
