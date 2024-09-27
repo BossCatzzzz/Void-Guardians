@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"firstProject_v0.3",
+  "%Name":"firstProject_v0.5",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -40,7 +40,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"firstProject_v0.3",
+  "name":"firstProject_v0.5",
   "resources":[
     {"id":{"name":"fone_minecraft","path":"fonts/fone_minecraft/fone_minecraft.yy",},},
     {"id":{"name":"Font_show_hp","path":"fonts/Font_show_hp/Font_show_hp.yy",},},
@@ -158,6 +158,7 @@
     {"id":{"name":"s_hpshow_25","path":"sprites/s_hpshow_25/s_hpshow_25.yy",},},
     {"id":{"name":"s_hpshow_50","path":"sprites/s_hpshow_50/s_hpshow_50.yy",},},
     {"id":{"name":"s_hpshow_75","path":"sprites/s_hpshow_75/s_hpshow_75.yy",},},
+    {"id":{"name":"s_hpshow","path":"sprites/s_hpshow/s_hpshow.yy",},},
     {"id":{"name":"s_refill_eff","path":"sprites/s_refill_eff/s_refill_eff.yy",},},
     {"id":{"name":"s_refill_new","path":"sprites/s_refill_new/s_refill_new.yy",},},
     {"id":{"name":"s_refill","path":"sprites/s_refill/s_refill.yy",},},

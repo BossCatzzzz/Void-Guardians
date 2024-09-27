@@ -28,8 +28,8 @@ draw_text(1, 1, string("Score: ") + string(global.SCORE));
 /// @DnDArgument : "x" "1"
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "caption" ""HP: ""
-/// @DnDArgument : "var" "global.PLAYER_HP"
-draw_text(1, 30, string("HP: ") + string(global.PLAYER_HP));
+/// @DnDArgument : "var" "global.NOW_HP"
+draw_text(1, 30, string("HP: ") + string(global.NOW_HP));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
