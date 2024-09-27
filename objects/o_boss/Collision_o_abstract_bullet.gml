@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 02403174
+/// @DnDArgument : "soundid" "collission1"
+/// @DnDArgument : "gain" "0.5"
+/// @DnDSaveInfo : "soundid" "collission1"
+audio_play_sound(collission1, 0, 0, 0.5, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 708D76C1

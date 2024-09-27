@@ -13,8 +13,8 @@ global.PLAYER_HP += -1;
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 15DAA05E
-/// @DnDArgument : "xpos" "o_player_root.x+70"
-/// @DnDArgument : "ypos" "o_player_root.y-50 "
+/// @DnDArgument : "xpos" "o_player_root.x+90"
+/// @DnDArgument : "ypos" "o_player_root.y"
 /// @DnDArgument : "objectid" "o_hpshow"
 /// @DnDSaveInfo : "objectid" "o_hpshow"
-instance_create_layer(o_player_root.x+70, o_player_root.y-50 , "Instances", o_hpshow);
+instance_create_layer(o_player_root.x+90, o_player_root.y, "Instances", o_hpshow);

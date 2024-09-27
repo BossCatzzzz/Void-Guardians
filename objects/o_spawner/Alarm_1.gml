@@ -1,15 +1,14 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 /// @DnDVersion : 1
-/// @DnDHash : 66E0361F
-/// @DnDArgument : "xpos" "random_range(1,850)"
-/// @DnDArgument : "ypos" "1"
-/// @DnDArgument : "objectid" "o_ene1"
-/// @DnDSaveInfo : "objectid" "o_ene1"
-instance_create_layer(random_range(1,850), 1, "Instances", o_ene1);
+/// @DnDHash : 5F38CDCA
+/// @DnDDisabled : 1
+/// @DnDArgument : "timeline" "time_team_ene1_left"
+/// @DnDSaveInfo : "timeline" "time_team_ene1_left"
+
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 69591487
-/// @DnDArgument : "steps" "60"
+/// @DnDHash : 1F0EE627
+/// @DnDDisabled : 1
+/// @DnDArgument : "steps" "400"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 60);

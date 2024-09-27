@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 0AD55A7B
-/// @DnDArgument : "x" "o_player.x+90"
-/// @DnDArgument : "y" "o_player.y-30"
-x = o_player_root.x+90;y = o_player_root.y-30;
+/// @DnDArgument : "x" "o_player_control.x+90"
+/// @DnDArgument : "y" "o_player_control.y"
+x = o_player_control.x+90;y = o_player_control.y;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1

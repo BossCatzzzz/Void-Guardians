@@ -3,6 +3,13 @@
 /// @DnDHash : 7E716E36
 instance_destroy();
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 6734CEC0
+/// @DnDArgument : "soundid" "lv3_exposion"
+/// @DnDSaveInfo : "soundid" "lv3_exposion"
+audio_play_sound(lv3_exposion, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 08DEEDE5
