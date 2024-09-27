@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 347882EC
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 30);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 680550AD
@@ -9,9 +15,8 @@ draw_set_font(fone_minecraft);
 /// @DnDVersion : 1
 /// @DnDHash : 68B16945
 /// @DnDArgument : "color" "$FF0000FF"
-draw_set_colour($FF0000FF & $ffffff);
-var l68B16945_0=($FF0000FF >> 24);
-draw_set_alpha(l68B16945_0 / $ff);
+/// @DnDArgument : "alpha" "false"
+draw_set_colour($FF0000FF & $ffffff);draw_set_alpha(1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
@@ -19,8 +24,8 @@ draw_set_alpha(l68B16945_0 / $ff);
 /// @DnDArgument : "x" "x+60"
 /// @DnDArgument : "y" "y-40"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "global.NOW_HP"
-draw_text(x+60, y-40,  + string(global.NOW_HP));
+/// @DnDArgument : "var" "(100/global.HP_THIS_LV)*(global.NOW_HP)"
+draw_text(x+60, y-40,  + string((100/global.HP_THIS_LV)*(global.NOW_HP)));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

@@ -1,7 +1,15 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 5C8621B2
-/// @DnDArgument : "ypos" "-94"
-/// @DnDArgument : "objectid" "o_ene3_1"
-/// @DnDSaveInfo : "objectid" "o_ene3_1"
-instance_create_layer(0, -94, "Instances", o_ene3_1);
+/// @DnDHash : 7425F928
+/// @DnDArgument : "ypos" "-93"
+/// @DnDArgument : "objectid" "o_ene2"
+/// @DnDSaveInfo : "objectid" "o_ene2"
+instance_create_layer(0, -93, "Instances", o_ene2);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 17B137C0
+/// @DnDArgument : "ypos" "-98"
+/// @DnDArgument : "objectid" "o_ene1"
+/// @DnDSaveInfo : "objectid" "o_ene1"
+instance_create_layer(0, -98, "Instances", o_ene1);

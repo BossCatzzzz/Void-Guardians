@@ -27,6 +27,6 @@ image_xscale = 1.5;image_yscale = 1.2;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7D273A22
-/// @DnDArgument : "steps" "300"
+/// @DnDArgument : "steps" "rocketCD+60"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, 300);
+alarm_set(3, rocketCD+60);

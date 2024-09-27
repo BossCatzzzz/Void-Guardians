@@ -9,9 +9,9 @@ audio_play_sound(cannon_shot, 0, 0, 1.0, undefined, 0.5);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6D76751A
-/// @DnDArgument : "steps" "180"
+/// @DnDArgument : "steps" "rocketCD*2"
 /// @DnDArgument : "alarm" "5"
-alarm_set(5, 180);
+alarm_set(5, rocketCD*2);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

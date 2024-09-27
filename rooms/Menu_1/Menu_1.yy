@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Menu_1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Menu_1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -9,7 +9,7 @@
     {"name":"inst_50878901","path":"rooms/Menu_1/Menu_1.yy",},
     {"name":"inst_56393F29","path":"rooms/Menu_1/Menu_1.yy",},
   ],
-  "isDnd":false,
+  "isDnd":true,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_50878901","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50878901","objectId":{"name":"o_bt_exit","path":"objects/o_bt_exit/o_bt_exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":64.0,},
