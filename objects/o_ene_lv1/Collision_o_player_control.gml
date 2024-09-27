@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3E5A8BB4
+/// @DnDArgument : "value" "10"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "global.SCORE"
+global.SCORE += 10;
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 7E716E36

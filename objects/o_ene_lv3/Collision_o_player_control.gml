@@ -3,6 +3,14 @@
 /// @DnDHash : 7E716E36
 instance_destroy();
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 58CC82F5
+/// @DnDArgument : "value" "100"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "global.SCORE"
+global.SCORE += 100;
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 6734CEC0

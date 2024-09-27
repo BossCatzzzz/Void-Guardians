@@ -13,3 +13,12 @@ draw_set_font(Font_show_hp);
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "global.ENE_LV1_HP"
 draw_text(x, y, string("") + string(global.ENE_LV1_HP));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 059A193D
+/// @DnDDisabled : 1
+/// @DnDArgument : "x" "x"
+/// @DnDArgument : "y" "50"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "now_direc1"

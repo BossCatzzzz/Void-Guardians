@@ -7,7 +7,7 @@
 /// @DnDArgument : "value_4" "30"
 /// @DnDArgument : "value_5" "10"
 /// @DnDArgument : "value_6" "10"
-/// @DnDArgument : "value_7" "30"
+/// @DnDArgument : "value_7" "20"
 /// @DnDArgument : "value_8" "50"
 /// @DnDArgument : "var" "PLAYER_HP"
 /// @DnDArgument : "var_1" "SCORE"
@@ -25,5 +25,5 @@ global.BULLET_SPEED = 15;
 global.BULLET_CD = 30;
 global.BULLET_DAMAGE = 10;
 global.ENE_LV1_HP = 10;
-global.ENE_LV2_HP = 30;
+global.ENE_LV2_HP = 20;
 global.ENE_LV3_HP = 50;

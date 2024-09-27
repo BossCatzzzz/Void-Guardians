@@ -34,6 +34,15 @@ if(thisHP <= 0){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDParent : 1761E8FE
 	instance_destroy();
 
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 791F7CB4
+	/// @DnDParent : 1761E8FE
+	/// @DnDArgument : "value" "100"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "global.SCORE"
+	global.SCORE += 100;
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 292CDC25

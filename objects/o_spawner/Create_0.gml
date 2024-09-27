@@ -10,9 +10,10 @@ instance_create_layer(399, 1000, "Instances", o_player_root);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 62180A02
-/// @DnDInput : 3
-/// @DnDDisabled : 1
-/// @DnDArgument : "steps_2" "100"
+/// @DnDInput : 2
+/// @DnDArgument : "steps" "60"
+/// @DnDArgument : "steps_1" "1500"
 /// @DnDArgument : "alarm" "1"
 /// @DnDArgument : "alarm_1" "2"
-/// @DnDArgument : "alarm_2" "3"
+alarm_set(1, 60);
+alarm_set(2, 1500);
