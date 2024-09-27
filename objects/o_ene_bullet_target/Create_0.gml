@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
 /// @DnDHash : 08910853
-/// @DnDArgument : "expr" "global.RAND_BULLET_PATH"
-var l08910853_0 = global.RAND_BULLET_PATH;switch(l08910853_0){	/// @DnDAction : YoYo Games.Switch.Case
+/// @DnDArgument : "expr" "irandom_range(1,3)"
+var l08910853_0 = irandom_range(1,3);switch(l08910853_0){	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DE97D4F
 	/// @DnDParent : 08910853

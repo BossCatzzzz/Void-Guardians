@@ -13,3 +13,18 @@ draw_set_font(Font_show_hp);
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "thisHP"
 draw_text(x, y, string("") + string(thisHP));
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 544BEE51
+/// @DnDArgument : "var" "is_drop"
+/// @DnDArgument : "value" "1"
+if(is_drop == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 02D616FC
+	/// @DnDParent : 544BEE51
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "sprite" "light"
+	/// @DnDSaveInfo : "sprite" "light"
+	draw_sprite(light, 0, x, y);}

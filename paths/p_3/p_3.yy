@@ -15,7 +15,7 @@
     {"speed":100.0,"x":96.0,"y":992.0,},
     {"speed":100.0,"x":-128.0,"y":1248.0,},
   ],
-  "precision":4,
+  "precision":6,
   "resourceType":"GMPath",
   "resourceVersion":"2.0",
 }

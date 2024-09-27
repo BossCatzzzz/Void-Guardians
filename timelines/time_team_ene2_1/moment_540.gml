@@ -2,6 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 1EA06DC9
 /// @DnDArgument : "ypos" "-92"
-/// @DnDArgument : "objectid" "o_ene2"
-/// @DnDSaveInfo : "objectid" "o_ene2"
-instance_create_layer(0, -92, "Instances", o_ene2);
+/// @DnDArgument : "objectid" "o_ene2_1"
+/// @DnDSaveInfo : "objectid" "o_ene2_1"
+instance_create_layer(0, -92, "Instances", o_ene2_1);
