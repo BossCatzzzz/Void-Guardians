@@ -3,7 +3,7 @@
 /// @DnDHash : 091111C1
 /// @DnDArgument : "soundid" "llaser_cannon_shot_1678"
 /// @DnDSaveInfo : "soundid" "llaser_cannon_shot_1678"
-audio_play_sound(llaser_cannon_shot_1678, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(cannon_shot, 0, 0, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

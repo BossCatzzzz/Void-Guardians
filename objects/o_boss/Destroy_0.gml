@@ -4,7 +4,7 @@
 /// @DnDArgument : "soundid" "boss_exposion__mp3cut_net_"
 /// @DnDArgument : "gain" "4"
 /// @DnDSaveInfo : "soundid" "boss_exposion__mp3cut_net_"
-audio_play_sound(boss_exposion__mp3cut_net_, 0, 0, 4, undefined, 1.0);
+audio_play_sound(boss_exposion, 0, 0, 4, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

@@ -5,7 +5,7 @@
 /// @DnDArgument : "gain" "1.3"
 /// @DnDArgument : "pitch" "0.8"
 /// @DnDSaveInfo : "soundid" "llaser_cannon_shot_1678"
-audio_play_sound(llaser_cannon_shot_1678, 0, 0, 1.3, undefined, 0.8);
+audio_play_sound(cannon_shot, 0, 0, 1.3, undefined, 0.8);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

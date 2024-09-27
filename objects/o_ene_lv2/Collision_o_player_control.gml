@@ -6,25 +6,26 @@ instance_destroy();
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 6AFB175D
-/// @DnDArgument : "soundid" "mixkit_arcade_game_explosion_2759"
-/// @DnDSaveInfo : "soundid" "mixkit_arcade_game_explosion_2759"
-audio_play_sound(mixkit_arcade_game_explosion_2759, 0, 0, 1.0, undefined, 1.0);
+/// @DnDArgument : "soundid" "small_explosion"
+/// @DnDArgument : "gain" "1.5"
+/// @DnDSaveInfo : "soundid" "small_explosion"
+audio_play_sound(small_explosion, 0, 0, 1.5, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 5B0AA7BD
-/// @DnDArgument : "xpos" "x-10"
+/// @DnDHash : 0FB9FEE4
+/// @DnDArgument : "xpos" "x"
 /// @DnDArgument : "ypos" "y"
-/// @DnDArgument : "objectid" "o_boommmm"
-/// @DnDSaveInfo : "objectid" "o_boommmm"
-instance_create_layer(x-10, y, "Instances", o_boommmm);
+/// @DnDArgument : "objectid" "o_exposion1"
+/// @DnDSaveInfo : "objectid" "o_exposion1"
+instance_create_layer(x, y, "Instances", o_exposion1);
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
-/// @DnDHash : 31704BE4
+/// @DnDHash : 3D80A4AB
 /// @DnDApplyTo : {o_boommmm}
-/// @DnDArgument : "xscale" "0.5"
-/// @DnDArgument : "yscale" "0.5"
+/// @DnDArgument : "xscale" "0.9"
+/// @DnDArgument : "yscale" "0.9"
 with(o_boommmm) {
-image_xscale = 0.5;image_yscale = 0.5;
+image_xscale = 0.9;image_yscale = 0.9;
 }
