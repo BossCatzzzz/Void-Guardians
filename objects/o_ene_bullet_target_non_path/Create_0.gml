@@ -8,5 +8,5 @@ direction = point_direction(x, y, o_player_root.x, o_player_root.y);
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 4EF3122C
-/// @DnDArgument : "speed" "10"
-speed = 10;
+/// @DnDArgument : "speed" "11"
+speed = 11;

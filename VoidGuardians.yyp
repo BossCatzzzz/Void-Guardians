@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"firstProject_v0.9",
+  "%Name":"firstProject-v1.0",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -47,7 +47,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"firstProject_v0.9",
+  "name":"firstProject-v1.0",
   "resources":[
     {"id":{"name":"fone_minecraft","path":"fonts/fone_minecraft/fone_minecraft.yy",},},
     {"id":{"name":"Font_show_hp","path":"fonts/Font_show_hp/Font_show_hp.yy",},},
@@ -64,10 +64,10 @@
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},},
     {"id":{"name":"o_collision_with_bullet1","path":"objects/o_collision_with_bullet1/o_collision_with_bullet1.yy",},},
     {"id":{"name":"o_earnable","path":"objects/o_earnable/o_earnable.yy",},},
-    {"id":{"name":"o_ene_bullet_DEL_ME_NOW","path":"objects/o_ene_bullet_DEL_ME_NOW/o_ene_bullet_DEL_ME_NOW.yy",},},
     {"id":{"name":"o_ene_bullet_target_non_path_1","path":"objects/o_ene_bullet_target_non_path_1/o_ene_bullet_target_non_path_1.yy",},},
     {"id":{"name":"o_ene_bullet_target_non_path","path":"objects/o_ene_bullet_target_non_path/o_ene_bullet_target_non_path.yy",},},
     {"id":{"name":"o_ene_bullet_target","path":"objects/o_ene_bullet_target/o_ene_bullet_target.yy",},},
+    {"id":{"name":"o_ene_bullet","path":"objects/o_ene_bullet/o_ene_bullet.yy",},},
     {"id":{"name":"o_ene_dora","path":"objects/o_ene_dora/o_ene_dora.yy",},},
     {"id":{"name":"o_ene_lv1","path":"objects/o_ene_lv1/o_ene_lv1.yy",},},
     {"id":{"name":"o_ene_lv2","path":"objects/o_ene_lv2/o_ene_lv2.yy",},},
@@ -103,6 +103,8 @@
     {"id":{"name":"p_1","path":"paths/p_1/p_1.yy",},},
     {"id":{"name":"p_2","path":"paths/p_2/p_2.yy",},},
     {"id":{"name":"p_3","path":"paths/p_3/p_3.yy",},},
+    {"id":{"name":"p_4","path":"paths/p_4/p_4.yy",},},
+    {"id":{"name":"p_8","path":"paths/p_8/p_8.yy",},},
     {"id":{"name":"p_boss","path":"paths/p_boss/p_boss.yy",},},
     {"id":{"name":"p_bullet_target","path":"paths/p_bullet_target/p_bullet_target.yy",},},
     {"id":{"name":"p_bullet_target1","path":"paths/p_bullet_target1/p_bullet_target1.yy",},},

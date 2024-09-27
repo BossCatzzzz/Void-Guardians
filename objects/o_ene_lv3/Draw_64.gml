@@ -12,3 +12,12 @@ if(!(is_drop == 0)){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDArgument : "sprite" "light_lv3"
 	/// @DnDSaveInfo : "sprite" "light_lv3"
 	draw_sprite(light_lv3, 0, x, y);}
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 720DC86D
+/// @DnDArgument : "x" "x"
+/// @DnDArgument : "y" "y"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "thisHP"
+draw_text(x, y,  + string(thisHP));

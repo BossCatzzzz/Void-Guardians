@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 019B15AD
 /// @DnDArgument : "xpos" "random_range(100,800)"
-/// @DnDArgument : "ypos" "-91"
+/// @DnDArgument : "ypos" "-92"
 /// @DnDArgument : "objectid" "o_ene1"
 /// @DnDSaveInfo : "objectid" "o_ene1"
-instance_create_layer(random_range(100,800), -91, "Instances", o_ene1);
+instance_create_layer(random_range(100,800), -92, "Instances", o_ene1);

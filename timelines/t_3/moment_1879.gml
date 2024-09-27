@@ -26,9 +26,9 @@ instance_create_layer(0, -91, "Instances", o_ene1);
 /// @DnDAction : YoYo Games.Timelines.Set_Timeline
 /// @DnDVersion : 1
 /// @DnDHash : 3516DF2C
-/// @DnDArgument : "timeline" "Timeline4"
-/// @DnDSaveInfo : "timeline" "Timeline4"
-timeline_index = Timeline4;timeline_loop = 0;timeline_running = 1;
+/// @DnDArgument : "timeline" "t_4"
+/// @DnDSaveInfo : "timeline" "t_4"
+timeline_index = t_4;timeline_loop = 0;timeline_running = 1;
 
 /// @DnDAction : YoYo Games.Timelines.Position_Timeline
 /// @DnDVersion : 1

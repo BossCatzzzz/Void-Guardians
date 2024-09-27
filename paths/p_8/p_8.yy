@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"p_8",
+  "closed":false,
+  "kind":1,
+  "name":"p_8",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":-32.0,"y":224.0,},
+    {"speed":100.0,"x":192.0,"y":384.0,},
+    {"speed":100.0,"x":416.0,"y":480.0,},
+    {"speed":100.0,"x":672.0,"y":576.0,},
+    {"speed":100.0,"x":864.0,"y":704.0,},
+    {"speed":100.0,"x":1120.0,"y":896.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
