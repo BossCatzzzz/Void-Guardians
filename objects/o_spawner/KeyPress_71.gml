@@ -26,4 +26,4 @@ with(o_ene_bullet_target) instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 3D9FC0B2
 /// @DnDApplyTo : {o_ene_bullet}
-with(o_ene_bullet) instance_destroy();
+with(o_ene_bullet_DEL_ME_NOW) instance_destroy();

@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"o_ene1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"o_ene1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemy",
+    "path":"folders/Objects/enemy.yy",
   },
   "parentObjectId":{
     "name":"o_ene_lv1",

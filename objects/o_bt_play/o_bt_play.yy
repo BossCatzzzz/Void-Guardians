@@ -10,8 +10,8 @@
   "name":"o_bt_play",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"others",
+    "path":"folders/Objects/others.yy",
   },
   "parentObjectId":null,
   "persistent":false,

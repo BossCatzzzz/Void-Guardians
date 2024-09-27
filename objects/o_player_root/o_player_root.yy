@@ -15,14 +15,14 @@
   "name":"o_player_root",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player",
+    "path":"folders/Objects/player.yy",
   },
   "parentObjectId":{
     "name":"o_player_control",
     "path":"objects/o_player_control/o_player_control.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

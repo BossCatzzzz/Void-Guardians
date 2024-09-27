@@ -8,8 +8,8 @@
   "name":"o_bullet_up1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player_bullet",
+    "path":"folders/Objects/bullets/player_bullet.yy",
   },
   "parentObjectId":{
     "name":"o_abstract_bullet",
@@ -31,7 +31,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"s_bullet_1",
     "path":"sprites/s_bullet_1/s_bullet_1.yy",

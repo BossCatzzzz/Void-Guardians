@@ -1,16 +1,9 @@
 /// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
-/// @DnDHash : 0E2CBA32
+/// @DnDHash : 0B3848C7
 event_inherited();
 
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Random
-/// @DnDVersion : 1.1
-/// @DnDHash : 64FD203A
-/// @DnDArgument : "direction" "270"
-direction = choose(270);
-
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 11C1574A
-/// @DnDArgument : "speed" "5"
-speed = 5;
+/// @DnDHash : 0B684732
+alarm_set(0, 30);

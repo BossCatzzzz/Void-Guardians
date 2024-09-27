@@ -12,8 +12,8 @@
   "name":"o_abstract_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player_bullet",
+    "path":"folders/Objects/bullets/player_bullet.yy",
   },
   "parentObjectId":null,
   "persistent":false,

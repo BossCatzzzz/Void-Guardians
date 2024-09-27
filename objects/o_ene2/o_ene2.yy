@@ -6,8 +6,8 @@
   "name":"o_ene2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemy",
+    "path":"folders/Objects/enemy.yy",
   },
   "parentObjectId":{
     "name":"o_ene_lv2",

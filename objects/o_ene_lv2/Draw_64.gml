@@ -18,8 +18,8 @@ draw_text(x, y, string("") + string(thisHP));
 /// @DnDVersion : 1
 /// @DnDHash : 6D8A6CC1
 /// @DnDArgument : "var" "is_drop"
-/// @DnDArgument : "value" "1"
-if(is_drop == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDArgument : "not" "1"
+if(!(is_drop == 0)){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 33A19023
 	/// @DnDParent : 6D8A6CC1

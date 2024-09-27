@@ -6,8 +6,8 @@
   "name":"o_refill",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"items",
+    "path":"folders/Objects/items.yy",
   },
   "parentObjectId":{
     "name":"o_earnable",

@@ -11,8 +11,8 @@
   "name":"o_hpshow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"others",
+    "path":"folders/Objects/others.yy",
   },
   "parentObjectId":null,
   "persistent":false,

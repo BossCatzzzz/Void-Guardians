@@ -59,16 +59,7 @@ if(is_killed == 1){	/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDArgument : "ypos" "y"
 			/// @DnDArgument : "objectid" "o_speedup"
 			/// @DnDSaveInfo : "objectid" "o_speedup"
-			instance_create_layer(x, y, "Instances", o_speedup);
-		
-			/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
-			/// @DnDVersion : 1
-			/// @DnDHash : 254583CD
-			/// @DnDApplyTo : {o_earnable}
-			/// @DnDParent : 03E51C56
-			/// @DnDArgument : "x" "random_range(0,830)"
-			/// @DnDArgument : "y" "random_range(0,1136)"
-			with(o_earnable) direction = point_direction(x, y, random_range(0,830), random_range(0,1136));	break;
+			instance_create_layer(x, y, "Instances", o_speedup);	break;
 	
 		/// @DnDAction : YoYo Games.Switch.Case
 		/// @DnDVersion : 1
@@ -99,8 +90,3 @@ if(is_killed == 1){	/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDArgument : "objectid" "o_levelup"
 			/// @DnDSaveInfo : "objectid" "o_levelup"
 			instance_create_layer(x, y, "Instances", o_levelup);	break;}}
-
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 6C4EB2C6
-instance_destroy();

@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 611E1977
 /// @DnDArgument : "target" "now_direc3"
+/// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "instvar" "6"
-now_direc3 = direction;
+var now_direc3 = direction;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1

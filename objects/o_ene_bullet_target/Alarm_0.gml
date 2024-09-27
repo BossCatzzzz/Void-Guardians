@@ -6,8 +6,8 @@ path_end();
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 4F5BF302
-/// @DnDArgument : "speed" " 14"
-speed =  14;
+/// @DnDArgument : "speed" "8"
+speed = 8;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
@@ -20,5 +20,5 @@ direction = point_direction(x, y, o_player_root.x, o_player_root.y);
 /// @DnDVersion : 1
 /// @DnDHash : 7A5A1A73
 /// @DnDArgument : "colour" "$FF0000FF"
+/// @DnDArgument : "alpha" "false"
 image_blend = $FF0000FF & $ffffff;
-image_alpha = ($FF0000FF >> 24) / $ff;

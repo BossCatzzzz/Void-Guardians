@@ -28,8 +28,8 @@
   ],
   "name":"time_team_ene2_1",
   "parent":{
-    "name":"Timelines",
-    "path":"folders/Timelines.yy",
+    "name":"room1",
+    "path":"folders/Timelines/room1.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

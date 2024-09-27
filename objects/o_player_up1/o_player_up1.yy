@@ -9,14 +9,14 @@
   "name":"o_player_up1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player",
+    "path":"folders/Objects/player.yy",
   },
   "parentObjectId":{
     "name":"o_player_root",
     "path":"objects/o_player_root/o_player_root.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

@@ -75,9 +75,10 @@ var l588B2234_0 =  global.LEVEL;switch(l588B2234_0){	/// @DnDAction : YoYo Ga
 		/// @DnDParent : 107B0C43
 		/// @DnDArgument : "xpos" "x_now"
 		/// @DnDArgument : "ypos" "y_now"
+		/// @DnDArgument : "var" "global.THIS_PLAYER"
 		/// @DnDArgument : "objectid" "o_player_up1"
 		/// @DnDSaveInfo : "objectid" "o_player_up1"
-		instance_create_layer(x_now, y_now, "Instances", o_player_up1);	break;
+		global.THIS_PLAYER = instance_create_layer(x_now, y_now, "Instances", o_player_up1);	break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
@@ -112,9 +113,10 @@ var l588B2234_0 =  global.LEVEL;switch(l588B2234_0){	/// @DnDAction : YoYo Ga
 		/// @DnDParent : 60F40293
 		/// @DnDArgument : "xpos" "x_now"
 		/// @DnDArgument : "ypos" "y_now"
+		/// @DnDArgument : "var" "global.THIS_PLAYER"
 		/// @DnDArgument : "objectid" "o_player_up2"
 		/// @DnDSaveInfo : "objectid" "o_player_up2"
-		instance_create_layer(x_now, y_now, "Instances", o_player_up2);	break;
+		global.THIS_PLAYER = instance_create_layer(x_now, y_now, "Instances", o_player_up2);	break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
@@ -149,6 +151,7 @@ var l588B2234_0 =  global.LEVEL;switch(l588B2234_0){	/// @DnDAction : YoYo Ga
 		/// @DnDParent : 75091847
 		/// @DnDArgument : "xpos" "x_now"
 		/// @DnDArgument : "ypos" "y_now"
+		/// @DnDArgument : "var" "global.THIS_PLAYER"
 		/// @DnDArgument : "objectid" "o_player_up3"
 		/// @DnDSaveInfo : "objectid" "o_player_up3"
-		instance_create_layer(x_now, y_now, "Instances", o_player_up3);	break;}
+		global.THIS_PLAYER = instance_create_layer(x_now, y_now, "Instances", o_player_up3);	break;}

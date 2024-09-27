@@ -2,13 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7F2A2CC2
 /// @DnDInput : 3
-/// @DnDArgument : "expr_2" "global.ENE_SPEED"
+/// @DnDArgument : "expr_2" "global.ENE_SPEED+2"
 /// @DnDArgument : "var" "is_drop"
 /// @DnDArgument : "var_1" "is_killed"
 /// @DnDArgument : "var_2" "this_speed"
 is_drop = 0;
 is_killed = 0;
-this_speed = global.ENE_SPEED;
+this_speed = global.ENE_SPEED+2;
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1

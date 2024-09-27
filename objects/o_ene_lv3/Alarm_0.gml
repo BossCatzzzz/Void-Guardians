@@ -10,5 +10,5 @@ instance_create_layer(x, y, "Instances", o_ene_bullet_target);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 40C1D7CF
-/// @DnDArgument : "steps" "150"
-alarm_set(0, 150);
+/// @DnDArgument : "steps" "180"
+alarm_set(0, 180);

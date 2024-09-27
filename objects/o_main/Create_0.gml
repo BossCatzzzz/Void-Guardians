@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 35390830
+/// @DnDHash : 39798971
 /// @DnDInput : 15
 /// @DnDArgument : "value" "100"
 /// @DnDArgument : "value_3" "15"
@@ -12,7 +12,7 @@
 /// @DnDArgument : "value_9" "120"
 /// @DnDArgument : "value_10" "160"
 /// @DnDArgument : "value_11" "200"
-/// @DnDArgument : "value_12" "10"
+/// @DnDArgument : "value_12" "8"
 /// @DnDArgument : "value_13" "100"
 /// @DnDArgument : "value_14" "5"
 /// @DnDArgument : "var" "PLAYER_HP"
@@ -42,6 +42,6 @@ global.ENE_LV3_HP = 50;
 global.PLAYER_HP_LV1 = 120;
 global.PLAYER_HP_LV2 = 160;
 global.PLAYER_HP_LV3 = 200;
-global.PLAYER_SPEED = 10;
+global.PLAYER_SPEED = 8;
 global.NOW_HP = 100;
 global.ENE_SPEED = 5;

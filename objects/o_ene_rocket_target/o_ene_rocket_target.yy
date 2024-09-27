@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"o_ene_rocket_target",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_wall_other","path":"objects/o_wall_other/o_wall_other.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -15,8 +14,8 @@
   "name":"o_ene_rocket_target",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemy_bullet",
+    "path":"folders/Objects/bullets/enemy_bullet.yy",
   },
   "parentObjectId":null,
   "persistent":false,

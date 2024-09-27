@@ -9,8 +9,8 @@
   "name":"o_item_drop_able",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"others",
+    "path":"folders/Objects/others.yy",
   },
   "parentObjectId":null,
   "persistent":false,
