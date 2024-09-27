@@ -1,0 +1,27 @@
+{
+  "$GMPath":"",
+  "%Name":"p_mini_boss",
+  "closed":false,
+  "kind":1,
+  "name":"p_mini_boss",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":256.0,"y":0.0,},
+    {"speed":100.0,"x":864.0,"y":448.0,},
+    {"speed":100.0,"x":864.0,"y":992.0,},
+    {"speed":100.0,"x":512.0,"y":992.0,},
+    {"speed":100.0,"x":288.0,"y":992.0,},
+    {"speed":100.0,"x":192.0,"y":960.0,},
+    {"speed":100.0,"x":128.0,"y":864.0,},
+    {"speed":100.0,"x":96.0,"y":608.0,},
+    {"speed":100.0,"x":96.0,"y":288.0,},
+    {"speed":100.0,"x":128.0,"y":32.0,},
+    {"speed":100.0,"x":128.0,"y":-128.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

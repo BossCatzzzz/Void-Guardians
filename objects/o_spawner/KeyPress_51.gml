@@ -17,11 +17,10 @@ global.RAND_BULLET_PATH = irandom_range(1,3);
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 73B15E61
-/// @DnDDisabled : 1
 /// @DnDArgument : "xpos" "irandom_range(0,800 )"
 /// @DnDArgument : "objectid" "o_ene3"
 /// @DnDSaveInfo : "objectid" "o_ene3"
-
+instance_create_layer(irandom_range(0,800 ), 0, "Instances", o_ene3);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

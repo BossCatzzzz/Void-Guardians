@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"firstProject_v0.2.8",
+  "%Name":"firstProject_v0.3",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -40,7 +40,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"firstProject_v0.2.8",
+  "name":"firstProject_v0.3",
   "resources":[
     {"id":{"name":"fone_minecraft","path":"fonts/fone_minecraft/fone_minecraft.yy",},},
     {"id":{"name":"Font_show_hp","path":"fonts/Font_show_hp/Font_show_hp.yy",},},
@@ -62,6 +62,7 @@
     {"id":{"name":"o_ene_lv1","path":"objects/o_ene_lv1/o_ene_lv1.yy",},},
     {"id":{"name":"o_ene_lv2","path":"objects/o_ene_lv2/o_ene_lv2.yy",},},
     {"id":{"name":"o_ene_lv3","path":"objects/o_ene_lv3/o_ene_lv3.yy",},},
+    {"id":{"name":"o_ene_rocket_target","path":"objects/o_ene_rocket_target/o_ene_rocket_target.yy",},},
     {"id":{"name":"o_ene_unknow","path":"objects/o_ene_unknow/o_ene_unknow.yy",},},
     {"id":{"name":"o_ene1","path":"objects/o_ene1/o_ene1.yy",},},
     {"id":{"name":"o_ene2_1","path":"objects/o_ene2_1/o_ene2_1.yy",},},
@@ -90,6 +91,8 @@
     {"id":{"name":"p_boss","path":"paths/p_boss/p_boss.yy",},},
     {"id":{"name":"p_bullet_target","path":"paths/p_bullet_target/p_bullet_target.yy",},},
     {"id":{"name":"p_bullet_target1","path":"paths/p_bullet_target1/p_bullet_target1.yy",},},
+    {"id":{"name":"p_mini_boss_1","path":"paths/p_mini_boss_1/p_mini_boss_1.yy",},},
+    {"id":{"name":"p_mini_boss","path":"paths/p_mini_boss/p_mini_boss.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"Path5_r","path":"paths/Path5_r/Path5_r.yy",},},
     {"id":{"name":"Path5","path":"paths/Path5/Path5.yy",},},
@@ -158,6 +161,8 @@
     {"id":{"name":"s_refill_eff","path":"sprites/s_refill_eff/s_refill_eff.yy",},},
     {"id":{"name":"s_refill_new","path":"sprites/s_refill_new/s_refill_new.yy",},},
     {"id":{"name":"s_refill","path":"sprites/s_refill/s_refill.yy",},},
+    {"id":{"name":"s_rocket1","path":"sprites/s_rocket1/s_rocket1.yy",},},
+    {"id":{"name":"s_shoting_effect","path":"sprites/s_shoting_effect/s_shoting_effect.yy",},},
     {"id":{"name":"s_speedup_new","path":"sprites/s_speedup_new/s_speedup_new.yy",},},
     {"id":{"name":"s_speedup","path":"sprites/s_speedup/s_speedup.yy",},},
     {"id":{"name":"s_upgrade","path":"sprites/s_upgrade/s_upgrade.yy",},},
