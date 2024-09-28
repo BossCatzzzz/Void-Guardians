@@ -213,6 +213,7 @@
     {"id":{"name":"s_wallother","path":"sprites/s_wallother/s_wallother.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"start","path":"sprites/start/start.yy",},},
     {"id":{"name":"under_construction","path":"sprites/under_construction/under_construction.yy",},},
     {"id":{"name":"t_1","path":"timelines/t_1/t_1.yy",},},
     {"id":{"name":"t_2","path":"timelines/t_2/t_2.yy",},},
