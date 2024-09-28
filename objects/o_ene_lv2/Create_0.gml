@@ -159,5 +159,5 @@ var l0FCDE4C1_0 = y;switch(l0FCDE4C1_0){	/// @DnDAction : YoYo Games.Switch.C
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 52F54FF4
-/// @DnDArgument : "steps" "irandom_range(10,30)"
-alarm_set(0, irandom_range(10,30));
+/// @DnDArgument : "steps" "irandom_range(10,50)"
+alarm_set(0, irandom_range(10,50));

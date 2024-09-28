@@ -1,13 +1,3 @@
-/// @DnDAction : YoYo Games.Collisions.If_Object_At
-/// @DnDVersion : 1.1
-/// @DnDHash : 499AD4CC
-/// @DnDDisabled : 1
-/// @DnDArgument : "y" "y+20"
-/// @DnDArgument : "object" "o_wall_ver"
-/// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "o_wall_ver"
-
-
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 5452BCDE

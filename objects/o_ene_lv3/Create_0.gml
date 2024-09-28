@@ -113,5 +113,5 @@ var l7D5D2239_0 = y;switch(l7D5D2239_0){	/// @DnDAction : YoYo Games.Switch.C
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7B3AA0C3
-/// @DnDArgument : "steps" "60"
-alarm_set(0, 60);
+/// @DnDArgument : "steps" "irandom_range(50,70)"
+alarm_set(0, irandom_range(50,70));

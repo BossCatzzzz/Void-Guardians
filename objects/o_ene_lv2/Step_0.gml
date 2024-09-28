@@ -9,6 +9,5 @@ var now_direc2 = direction;
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 244D3C99
-/// @DnDComment : cứ thử sai thử sai$(13_10)chả biết công thức ntn$(13_10)nhưng mà chạy dc là dc $(13_10):)))))))
 /// @DnDArgument : "angle" "now_direc2-270"
 image_angle = now_direc2-270;

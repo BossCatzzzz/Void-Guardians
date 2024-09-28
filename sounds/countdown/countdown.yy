@@ -9,7 +9,7 @@
   "bitRate":8,
   "compression":0,
   "conversionMode":0,
-  "duration":3.481655,
+  "duration":5.009161,
   "name":"countdown",
   "parent":{
     "name":"Sounds",
