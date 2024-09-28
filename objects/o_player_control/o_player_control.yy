@@ -30,6 +30,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_ene_bullet_target_non_path","path":"objects/o_ene_bullet_target_non_path/o_ene_bullet_target_non_path.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_ene_rocket_target","path":"objects/o_ene_rocket_target/o_ene_rocket_target.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_ene_bullet_target_non_path_1","path":"objects/o_ene_bullet_target_non_path_1/o_ene_bullet_target_non_path_1.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_player_control",
@@ -58,5 +59,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
