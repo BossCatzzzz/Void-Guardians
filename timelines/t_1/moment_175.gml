@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 14DF3426
+/// @DnDHash : 48685CB7
 /// @DnDArgument : "xpos" "random_range(100,800)"
 /// @DnDArgument : "ypos" "-92"
 /// @DnDArgument : "objectid" "o_ene1"

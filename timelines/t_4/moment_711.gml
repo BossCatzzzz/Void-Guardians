@@ -13,8 +13,8 @@ var tem3 = instance_create_layer(0, 2, "Instances", o_enemy_unknow_1);
 /// @DnDHash : 1DC41726
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "2"
-/// @DnDArgument : "expr_1" "tem3.thisHP*3"
+/// @DnDArgument : "expr_1" "tem3.thisHP*2"
 /// @DnDArgument : "var" "tem3.is_drop"
 /// @DnDArgument : "var_1" "tem3.thisHP"
 tem3.is_drop = 2;
-tem3.thisHP = tem3.thisHP*3;
+tem3.thisHP = tem3.thisHP*2;

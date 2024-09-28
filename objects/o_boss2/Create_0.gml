@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 08116276
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "1500"
+/// @DnDArgument : "expr" "2200"
 /// @DnDArgument : "expr_1" "200"
 /// @DnDArgument : "var" "thisHP"
 /// @DnDArgument : "var_1" "rocketCD"
-thisHP = 1500;
+thisHP = 2200;
 rocketCD = 200;
 
 /// @DnDAction : YoYo Games.Paths.Start_Path

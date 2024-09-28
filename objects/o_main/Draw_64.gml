@@ -34,8 +34,8 @@ draw_text(750, 1,  + string(global.SCORE));
 /// @DnDArgument : "x" "20"
 /// @DnDArgument : "y" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "(100/global.HP_THIS_LV)*(global.NOW_HP)"
-draw_text(20, 1,  + string((100/global.HP_THIS_LV)*(global.NOW_HP)));
+/// @DnDArgument : "var" "floor((100/global.HP_THIS_LV)*(global.NOW_HP))"
+draw_text(20, 1,  + string(floor((100/global.HP_THIS_LV)*(global.NOW_HP))));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

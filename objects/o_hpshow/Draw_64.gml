@@ -24,8 +24,8 @@ draw_set_colour($FF0000FF & $ffffff);draw_set_alpha(1);
 /// @DnDArgument : "x" "x+60"
 /// @DnDArgument : "y" "y-40"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "(100/global.HP_THIS_LV)*(global.NOW_HP)"
-draw_text(x+60, y-40,  + string((100/global.HP_THIS_LV)*(global.NOW_HP)));
+/// @DnDArgument : "var" "floor((100/global.HP_THIS_LV)*(global.NOW_HP))"
+draw_text(x+60, y-40,  + string(floor((100/global.HP_THIS_LV)*(global.NOW_HP))));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

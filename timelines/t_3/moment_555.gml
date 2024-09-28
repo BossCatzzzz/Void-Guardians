@@ -13,8 +13,8 @@ var lv3 = instance_create_layer(0, 1, "Instances", o_ene_dora);
 /// @DnDHash : 129F8BB5
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "3"
-/// @DnDArgument : "expr_1" "lv3.thisHP*5"
+/// @DnDArgument : "expr_1" "lv3.thisHP*8"
 /// @DnDArgument : "var" "lv3.is_drop"
 /// @DnDArgument : "var_1" "lv3.thisHP"
 lv3.is_drop = 3;
-lv3.thisHP = lv3.thisHP*5;
+lv3.thisHP = lv3.thisHP*8;
